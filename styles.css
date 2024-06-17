@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h3 {
+    font-size: 40px;
+    font: verdana;
+    font-weight: 700;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 90px;
+    line-height: center;
+    font-weight: 400;
+    border-radius: 5px;
+    height: 100px;
+    width: 140px;
+    color: #F94F6D;
+    text-align: center;
+    background-color: #080001;
+}
+
+.button-el {
+    display: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
+
+#new-game-btn {
+    height: 50px;
+    top: 80%;
+    font-size: 15px;
+    position: fixed; /* Keep the button fixed at the bottom */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Adjust centering */
+    bottom: 10px; /* Add some space from the bottom */
+}
